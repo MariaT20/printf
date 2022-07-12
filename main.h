@@ -61,6 +61,7 @@ typedef struct parameters
  * @specifier: format token
  * @f: The function associated
  */
+
 typedef struct specifier
 {
 	char *specifier;
