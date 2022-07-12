@@ -23,7 +23,7 @@ int (*get_specifier(char *s))(va_list ap, params_t *params)
 		{"S", print_S},
 		{"r", print_rev},
 		{"R", print_rot13},
-		/* {NULL, NULL} */
+		{NULL, NULL}
 	};
 	int i = 0;
 
@@ -136,4 +136,3 @@ char *get_width(char *s, params_t *params, va_list ap)
 	params->width = d;
 	return (s);
 }
-
