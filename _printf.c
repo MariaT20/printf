@@ -27,6 +27,7 @@ int _printf(const char *format, ...)
 			sum += _putchar(*p);
 			continue;
 		}
+		
 		start = p;
 		p++;
 		while (get_flag(p, &params)) /* while char at p is flag char */
